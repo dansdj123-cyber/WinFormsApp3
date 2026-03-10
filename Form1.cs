@@ -22,7 +22,7 @@ namespace WinFormsApp3
         private void button1_Click(object sender, EventArgs e)
         {
             Random rand = new Random();
-            this.BackColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
+            this.BackColor = Color.FromArgb(rand.Next(200), rand.Next(200), rand.Next(256));
         }
 
         private void label1_Click(object sender, EventArgs e)
